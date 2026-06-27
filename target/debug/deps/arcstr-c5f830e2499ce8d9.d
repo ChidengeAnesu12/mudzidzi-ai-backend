@@ -1,0 +1,10 @@
+C:\Users\chide_fr7h6mx\Desktop\AI Projects\mudzidzi-ai-backend\rust-core\target\debug\deps\arcstr-c5f830e2499ce8d9.d: C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\lib.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\mac.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\arc_str.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\substr.rs
+
+C:\Users\chide_fr7h6mx\Desktop\AI Projects\mudzidzi-ai-backend\rust-core\target\debug\deps\libarcstr-c5f830e2499ce8d9.rlib: C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\lib.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\mac.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\arc_str.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\substr.rs
+
+C:\Users\chide_fr7h6mx\Desktop\AI Projects\mudzidzi-ai-backend\rust-core\target\debug\deps\libarcstr-c5f830e2499ce8d9.rmeta: C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\lib.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\mac.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\arc_str.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\substr.rs
+
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\lib.rs:
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\mac.rs:
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\arc_str.rs:
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\arcstr-1.2.0\src\substr.rs:

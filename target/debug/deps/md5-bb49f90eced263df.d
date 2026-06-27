@@ -1,0 +1,10 @@
+C:\Users\chide_fr7h6mx\Desktop\AI Projects\mudzidzi-ai-backend\rust-core\target\debug\deps\md5-bb49f90eced263df.d: C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs
+
+C:\Users\chide_fr7h6mx\Desktop\AI Projects\mudzidzi-ai-backend\rust-core\target\debug\deps\libmd5-bb49f90eced263df.rlib: C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs
+
+C:\Users\chide_fr7h6mx\Desktop\AI Projects\mudzidzi-ai-backend\rust-core\target\debug\deps\libmd5-bb49f90eced263df.rmeta: C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs
+
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\lib.rs:
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress.rs:
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\consts.rs:
+C:\Users\chide_fr7h6mx\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\md-5-0.10.6\src\compress\soft.rs:

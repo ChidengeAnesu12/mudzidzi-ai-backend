@@ -1,0 +1,15 @@
+[package]
+name = "api"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tokio.workspace = true
+axum.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+common = { path = "../common" }
+auth = { path = "../auth" }
+students = { path = "../students" }
+questions = { path = "../questions" }
+analytics = { path = "../analytics" }

@@ -3,6 +3,14 @@ use common::{cache, db, AppState, Config};
 
 #[tokio::main]
 async fn main() {
+    // Load .env BEFORE initializing tracing, so RUST_LOG (set in the
+    // root .env file) is actually present in the process environment
+    // when EnvFilter::from_default_env() reads it. Config::from_env()
+    // also calls dotenvy::dotenv() internally for its own variables —
+    // calling it twice here is harmless, since dotenvy never overwrites
+    // a variable that's already set.
+    let _ = dotenvy::dotenv();
+
     tracing_subscriber::fmt()
         .with_env_filter(tracing_subscriber::EnvFilter::from_default_env())
         .init();

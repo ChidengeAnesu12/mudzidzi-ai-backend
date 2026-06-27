@@ -1,0 +1,30 @@
+# Rust
+/rust-core/target/
+**/*.rs.bk
+
+# Python
+ai-service/.venv/
+ai-service/__pycache__/
+**/__pycache__/
+*.pyc
+ai-service/.pytest_cache/
+
+# Env
+.env
+*.env
+!.env.example
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log

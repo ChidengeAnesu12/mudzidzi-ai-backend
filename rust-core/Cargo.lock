@@ -2033,8 +2033,12 @@ dependencies = [
 name = "students"
 version = "0.1.0"
 dependencies = [
+ "axum",
+ "chrono",
  "common",
  "serde",
+ "sqlx",
+ "uuid",
 ]
 
 [[package]]

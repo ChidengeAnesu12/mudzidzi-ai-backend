@@ -5,10 +5,7 @@ use common::{cache, db, AppState, Config};
 async fn main() {
     // Load .env BEFORE initializing tracing, so RUST_LOG (set in the
     // root .env file) is actually present in the process environment
-    // when EnvFilter::from_default_env() reads it. Config::from_env()
-    // also calls dotenvy::dotenv() internally for its own variables —
-    // calling it twice here is harmless, since dotenvy never overwrites
-    // a variable that's already set.
+    // when EnvFilter::from_default_env() reads it.
     let _ = dotenvy::dotenv();
 
     tracing_subscriber::fmt()
@@ -27,10 +24,9 @@ async fn main() {
         .expect("failed to connect to Redis");
     tracing::info!("Connected to Redis");
 
-    // Touch each domain crate's placeholder so the workspace wiring is
-    // verified end-to-end — replaced by real service routers as each
-    // service is implemented (auth in Phase 4, students in Phase 5, etc).
-    tracing::info!("{}", auth::placeholder());
+    // students/questions/analytics aren't implemented yet — touched
+    // here purely to confirm workspace wiring, same as earlier phases.
+    // auth is now real, so it's mounted as a router below instead.
     tracing::info!("{}", students::placeholder());
     tracing::info!("{}", questions::placeholder());
     tracing::info!("{}", analytics::placeholder());
@@ -45,6 +41,7 @@ async fn main() {
 
     let app = Router::new()
         .route("/health", get(health_check))
+        .merge(auth::router())
         .with_state(state);
 
     let listener = tokio::net::TcpListener::bind(format!("0.0.0.0:{port}"))
